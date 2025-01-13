@@ -1,30 +1,47 @@
 # Arturs Store
 
-**Arturs Store** ir mini e-komercijas lietotne, kas izstrādāta, izmantojot Next.js un Tailwind CSS. Šī lietotne ietver galveno lapu, produktu lapu un groza funkcionalitāti.
+**Arturs Store** is a mini e-commerce application built using Next.js and Tailwind CSS. This app includes a homepage, product page, and cart functionality.
 
 ---
 
-## Funkcijas
+## Features
 
-- **Produktu pārskats:** Apskatiet visus produktus ar attēliem, cenām un skatījumu skaitu.
-- **Kārtošana un filtrēšana:** Sakārto produktus pēc popularitātes vai cenas.
-- **Groza sistēma:** Pievienojiet produktus grozam un apskatiet kopējo summu.
-- **Responsīvais dizains:** Pielāgojas dažādām ierīcēm.
-- **Mock API integrācija:** Datu iegūšana no mock API, nodrošinot reālistisku funkcionalitāti.
+- **Product Overview:** View all products with images, prices, and view counts.
+- **Cart System:** Add products to the cart and view the total cost.
+- **Responsive Design:** Adapts to various devices.
 
 ---
 
-## Izmantotās tehnoloģijas
+## TO-DO
 
-- **Next.js:** Moderns React rāmis, kas nodrošina servera puses renderēšanu.
-- **Tailwind CSS:** Stilizācijas sistēma ar klasēm.
-- **JSON Server:** Datu simulācija lokāli.
-- **Node.js:** Back-end vide.
+- **Sorting and Filtering:** Sort products by popularity or price.
+- **Mock API Integration:** Fetch data from a mock API to provide realistic functionality.
 
 ---
 
-## Instalācija
+## Technologies Used
 
-1. Klonējiet repozitoriju:
+- **Next.js:** A modern React framework providing server-side rendering.
+- **Tailwind CSS:** A utility-first CSS framework for styling.
+- **JSON Server:** For simulating data locally.
+- **Node.js:** Back-end runtime environment.
+
+---
+
+## Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/tavs-lietotajvards/arturs-store.git
+   git clone https://github.com/your-username/arturs-store.git
+2. Navigate to the project directory:
+   ```bash
+   cd arturs-store
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm run development
+5. Open the application in your browser at:
+   ```bash
+   http://localhost:3000
